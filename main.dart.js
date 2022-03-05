@@ -40877,7 +40877,7 @@ r=i.gBp()
 q=i.gxa()
 p=A.axU(b,J.Fa(J.Fa(i.y,u.f,""),"/.json",""),i.r.length,i.f,i.e,s,r,i.gxz(),q)
 if(!i.d){o=t.sa
-o=A.cK(A.Yu(16,A.b([new A.eS(A.X("No",h,h,h,h,h,h)),new A.eS(A.X("Key",h,h,h,h,h,h)),new A.eS(A.X("Value",h,h,h,h,h,h))],t.UR),1200,A.b([A.wA(A.b([A.el(A.cN(h,A.X("1",h,h,h,h,h,h),B.D,!1,h,h,h,h,h,h,h,h,h,h,h,h,h,h,new A.acM(),h,h,h,h,h,h),h,!1),A.el(A.cN(h,A.X("Title",h,h,h,h,h,h),B.D,!1,h,h,h,h,h,h,h,h,h,h,h,h,h,h,new A.acN(),h,h,h,h,h,h),h,!1),A.el(A.cN(h,A.X(J.a7(i.x,"title"),h,h,h,h,h,h),B.D,!1,h,h,h,h,h,h,h,h,h,h,h,h,h,h,new A.acO(),h,h,h,h,h,h),h,!1)],o)),A.wA(A.b([A.el(A.cN(h,A.X("2",h,h,h,h,h,h),B.D,!1,h,h,h,h,h,h,h,h,h,h,h,h,h,h,new A.acP(),h,h,h,h,h,h),h,!1),A.el(A.cN(h,A.X("Icon",h,h,h,h,h,h),B.D,!1,h,h,h,h,h,h,h,h,h,h,h,h,h,h,new A.acQ(),h,h,h,h,h,h),h,!1),A.el(A.cN(h,A.X(J.a7(i.x,"icon"),h,h,h,h,h,h),B.D,!1,h,h,h,h,h,h,h,h,h,h,h,h,h,h,new A.acR(),h,h,h,h,h,h),h,!1)],o))],t.yy)),h,1/0)}else o=A.cG(A.b([A.aK(h,h,B.j,h,h,h,h,150,h,h,h,h,h),A.k8(A.nQ(),h,h),A.aK(h,h,B.j,h,h,h,h,150,h,h,h,h,h)],t.p),B.q,B.r,B.n)
+o=A.cK(A.Yu(16,A.b([new A.eS(A.X("No",h,h,h,h,h,h)),new A.eS(A.X("Key",h,h,h,h,h,h)),new A.eS(A.X("Value",h,h,h,h,h,h))],t.UR),1200,A.b([A.wA(A.b([A.el(A.cN(h,A.X("1",h,h,h,h,h,h),B.D,!1,h,h,h,h,h,h,h,h,h,h,h,h,h,h,new A.acM(),h,h,h,h,h,h),h,!1),A.el(A.cN(h,A.X("Title",h,h,h,h,h,h),B.D,!1,h,h,h,h,h,h,h,h,h,h,h,h,h,h,new A.acN(),h,h,h,h,h,h),h,!1),A.el(A.cN(h,A.X(J.a7(i.x,"title"),h,h,h,h,h,h),B.D,!1,h,h,h,h,h,h,h,h,h,h,h,h,h,h,new A.acO(),h,h,h,h,h,h),h,!1)],o)),A.wA(A.b([A.el(A.cN(h,A.X("2",h,h,h,h,h,h),B.D,!1,h,h,h,h,h,h,h,h,h,h,h,h,h,h,new A.acP(),h,h,h,h,h,h),h,!1),A.el(A.cN(h,A.X("Matter",h,h,h,h,h,h),B.D,!1,h,h,h,h,h,h,h,h,h,h,h,h,h,h,new A.acQ(),h,h,h,h,h,h),h,!1),A.el(A.cN(h,A.X(J.a7(i.x,"icon"),h,h,h,h,h,h),B.D,!1,h,h,h,h,h,h,h,h,h,h,h,h,h,h,new A.acR(),h,h,h,h,h,h),h,!1)],o))],t.yy)),h,1/0)}else o=A.cG(A.b([A.aK(h,h,B.j,h,h,h,h,150,h,h,h,h,h),A.k8(A.nQ(),h,h),A.aK(h,h,B.j,h,h,h,h,150,h,h,h,h,h)],t.p),B.q,B.r,B.n)
 q=A.aNt(b,i.r.length,i.f,i.e,s,r,i.gRY(),q)
 if(!i.d){s=A.b([new A.eS(A.X("No : ID",h,h,h,h,h,h)),new A.eS(A.X("Title",h,h,h,h,h,h)),new A.eS(A.X("Type",h,h,h,h,h,h))],t.UR)
 n=J.ca(J.a7(i.x,"Objects"))
@@ -40934,13 +40934,13 @@ p.a=J.a7(J.a7(J.a7(r.x,q),b),"type")
 s=A.es(J.a7(J.a7(J.a7(r.x,q),b),"id"))
 p.b=B.e.j(b+1)
 A.lE(new A.adq(p,r,b,o,n,m,s),a,t.z)},
-RZ(a){var s,r,q,p=null,o={}
-o.a=""
-s=A.es(p)
-r=A.es(p)
-q=A.es(p)
-o.b="page"
-A.lE(new A.adf(o,this,s,r,q,A.es(p)),a,t.z)},
+RZ(a){var s,r,q,p={}
+p.a=""
+s=A.es(null)
+r=A.es(null)
+q=A.es("https://raw.githubusercontent.com/akuladatta/gis_bin/master/imgs/")
+p.b="page"
+A.lE(new A.adf(p,this,s,r,q,A.es(null)),a,t.z)},
 xA(a){A.lE(new A.ad7(this,A.es(J.a7(this.x,"title")),A.es(J.a7(this.x,"icon"))),a,t.z)},
 Wz(a,b,c){this.ae(new A.adr(this,a,b,c))},
 aar(a,b,c){A.lE(new A.acY(this,b,c),a,t.z)},
@@ -41156,7 +41156,7 @@ A.ad7.prototype={
 $1(a){return new A.hd(new A.ad6(this.a,this.b,this.c),null)},
 $S:32}
 A.ad6.prototype={
-$2(a,b){var s,r=null,q=A.X("Add Map/Page",r,r,r,r,r,r),p=this.b,o=this.c,n=t.p,m=A.Ie(A.cG(A.b([A.f3(p,A.dA(r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,A.aT(B.d8,r),r,!1,r,r,r,"title",r,r,r,r,r,r,r,r,r,r,r,r,r)),A.f3(o,A.dA(r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,A.aT(B.ed,r),r,!1,r,r,r,"icon",r,r,r,r,r,r,r,r,r,r,r,r,r))],n),B.q,B.r,B.n)),l=t.w,k=16/(a.I(l).f.a.a<850?2:1)
+$2(a,b){var s,r=null,q=A.X("Add Map/Page",r,r,r,r,r,r),p=this.b,o=this.c,n=t.p,m=A.Ie(A.cG(A.b([A.f3(p,A.dA(r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,A.aT(B.d8,r),r,!1,r,r,r,"title",r,r,r,r,r,r,r,r,r,r,r,r,r)),A.f3(o,A.dA(r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,A.aT(B.ed,r),r,!1,r,r,r,"Matter",r,r,r,r,r,r,r,r,r,r,r,r,r))],n),B.q,B.r,B.n)),l=t.w,k=16/(a.I(l).f.a.a<850?2:1)
 k=A.cy(r,r,r,r,r,r,r,r,r,r,new A.R(24,k,24,k),r,r,r,r,r,r,r)
 k=A.cB(A.aT(B.bY,r),A.X("cancel",r,r,r,r,r,r),new A.ad4(a),k)
 s=16/(a.I(l).f.a.a<850?2:1)
@@ -41677,7 +41677,7 @@ r=n.gBp()
 q=n.gxa()
 p=A.axU(b,n.a.c,n.x,n.f,n.e,s,r,n.gxz(),q)
 if(!n.d){o=t.sa
-o=A.cK(A.Yu(16,A.b([new A.eS(A.X("No",m,m,m,m,m,m)),new A.eS(A.X("Key",m,m,m,m,m,m)),new A.eS(A.X("Value",m,m,m,m,m,m))],t.UR),1200,A.b([A.wA(A.b([A.el(A.cN(m,A.X("1",m,m,m,m,m,m),B.D,!1,m,m,m,m,m,m,m,m,m,m,m,m,m,m,new A.ajI(),m,m,m,m,m,m),m,!1),A.el(A.cN(m,A.X("Title",m,m,m,m,m,m),B.D,!1,m,m,m,m,m,m,m,m,m,m,m,m,m,m,new A.ajJ(),m,m,m,m,m,m),m,!1),A.el(A.cN(m,A.X(J.a7(n.y,"title"),m,m,m,m,m,m),B.D,!1,m,m,m,m,m,m,m,m,m,m,m,m,m,m,new A.ajK(),m,m,m,m,m,m),m,!1)],o)),A.wA(A.b([A.el(A.cN(m,A.X("2",m,m,m,m,m,m),B.D,!1,m,m,m,m,m,m,m,m,m,m,m,m,m,m,new A.ajL(),m,m,m,m,m,m),m,!1),A.el(A.cN(m,A.X("Data",m,m,m,m,m,m),B.D,!1,m,m,m,m,m,m,m,m,m,m,m,m,m,m,new A.ajM(),m,m,m,m,m,m),m,!1),A.el(A.cN(m,A.X(J.Fa(J.a7(n.y,"data"),u.h,""),m,m,m,m,m,m),B.D,!1,m,m,m,m,m,m,m,m,m,m,m,m,m,m,new A.ajN(),m,m,m,m,m,m),m,!1)],o)),A.wA(A.b([A.el(A.cN(m,A.X("3",m,m,m,m,m,m),B.D,!1,m,m,m,m,m,m,m,m,m,m,m,m,m,m,new A.ajO(),m,m,m,m,m,m),m,!1),A.el(A.cN(m,A.X("Map",m,m,m,m,m,m),B.D,!1,m,m,m,m,m,m,m,m,m,m,m,m,m,m,new A.ajP(),m,m,m,m,m,m),m,!1),A.el(A.cN(m,A.X(J.Fa(J.a7(n.y,"map"),u.C,""),m,m,m,m,m,m),B.D,!1,m,m,m,m,m,m,m,m,m,m,m,m,m,m,new A.ajQ(),m,m,m,m,m,m),m,!1)],o))],t.yy)),m,1/0)}else o=A.cG(A.b([A.aK(m,m,B.j,m,m,m,m,150,m,m,m,m,m),A.k8(A.nQ(),m,m),A.aK(m,m,B.j,m,m,m,m,150,m,m,m,m,m)],t.p),B.q,B.r,B.n)
+o=A.cK(A.Yu(16,A.b([new A.eS(A.X("No",m,m,m,m,m,m)),new A.eS(A.X("Key",m,m,m,m,m,m)),new A.eS(A.X("Value",m,m,m,m,m,m))],t.UR),1200,A.b([A.wA(A.b([A.el(A.cN(m,A.X("1",m,m,m,m,m,m),B.D,!1,m,m,m,m,m,m,m,m,m,m,m,m,m,m,new A.ajI(),m,m,m,m,m,m),m,!1),A.el(A.cN(m,A.X("Title",m,m,m,m,m,m),B.D,!1,m,m,m,m,m,m,m,m,m,m,m,m,m,m,new A.ajJ(),m,m,m,m,m,m),m,!1),A.el(A.cN(m,A.X(J.a7(n.y,"title"),m,m,m,m,m,m),B.D,!1,m,m,m,m,m,m,m,m,m,m,m,m,m,m,new A.ajK(),m,m,m,m,m,m),m,!1)],o)),A.wA(A.b([A.el(A.cN(m,A.X("3",m,m,m,m,m,m),B.D,!1,m,m,m,m,m,m,m,m,m,m,m,m,m,m,new A.ajL(),m,m,m,m,m,m),m,!1),A.el(A.cN(m,A.X("Map",m,m,m,m,m,m),B.D,!1,m,m,m,m,m,m,m,m,m,m,m,m,m,m,new A.ajM(),m,m,m,m,m,m),m,!1),A.el(A.cN(m,A.X(J.Fa(J.a7(n.y,"map"),u.C,""),m,m,m,m,m,m),B.D,!1,m,m,m,m,m,m,m,m,m,m,m,m,m,m,new A.ajN(),m,m,m,m,m,m),m,!1)],o)),A.wA(A.b([A.el(A.cN(m,A.X("2",m,m,m,m,m,m),B.D,!1,m,m,m,m,m,m,m,m,m,m,m,m,m,m,new A.ajO(),m,m,m,m,m,m),m,!1),A.el(A.cN(m,A.X("Data",m,m,m,m,m,m),B.D,!1,m,m,m,m,m,m,m,m,m,m,m,m,m,m,new A.ajP(),m,m,m,m,m,m),m,!1),A.el(A.cN(m,A.X(J.Fa(J.a7(n.y,"data"),u.h,""),m,m,m,m,m,m),B.D,!1,m,m,m,m,m,m,m,m,m,m,m,m,m,m,new A.ajQ(),m,m,m,m,m,m),m,!1)],o))],t.yy)),m,1/0)}else o=A.cG(A.b([A.aK(m,m,B.j,m,m,m,m,150,m,m,m,m,m),A.k8(A.nQ(),m,m),A.aK(m,m,B.j,m,m,m,m,150,m,m,m,m,m)],t.p),B.q,B.r,B.n)
 return A.aK(m,A.cG(A.b([p,o,A.cK(m,50,m),A.aNu(b,n.r.length,n.f,n.e,s,r,n.gDX(),q)],t.p),B.b2,B.r,B.n),B.j,m,m,new A.bx(B.ae,m,m,B.a_,m,m,B.z),m,m,m,new A.R(16,16,16,16),m,m,m)},
 fb(a){return this.QQ(0)},
 QQ(a){var s=0,r=A.a0(t.z),q,p=this,o,n,m,l,k,j
