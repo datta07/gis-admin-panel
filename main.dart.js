@@ -9387,13 +9387,15 @@ _.c=a
 _.e=b
 _.f=c
 _.a=d},
-EY:function EY(a,b,c){var _=this
+EY:function EY(a,b,c,d){var _=this
 _.d=!0
 _.f=_.e=!1
 _.r=a
 _.w=b
-_.a=_.x=null
-_.b=c
+_.x=null
+_.y=c
+_.a=null
+_.b=d
 _.c=null},
 amq:function amq(){},
 amr:function amr(){},
@@ -9418,7 +9420,7 @@ amo:function amo(a,b){this.a=a
 this.b=b},
 amn:function amn(a,b){this.a=a
 this.b=b},
-ana:function ana(a,b,c,d,e,f,g,h,i){var _=this
+ana:function ana(a,b,c,d,e,f,g,h){var _=this
 _.a=a
 _.b=b
 _.c=c
@@ -9426,9 +9428,8 @@ _.d=d
 _.e=e
 _.f=f
 _.r=g
-_.w=h
-_.x=i},
-an9:function an9(a,b,c,d,e,f,g,h,i){var _=this
+_.w=h},
+an9:function an9(a,b,c,d,e,f,g,h){var _=this
 _.a=a
 _.b=b
 _.c=c
@@ -9436,8 +9437,7 @@ _.d=d
 _.e=e
 _.f=f
 _.r=g
-_.w=h
-_.x=i},
+_.w=h},
 an0:function an0(a,b,c){this.a=a
 this.b=b
 this.c=c},
@@ -9467,24 +9467,22 @@ _.f=f
 _.r=g
 _.w=h
 _.x=i},
-amX:function amX(a,b,c,d,e,f,g,h){var _=this
+amX:function amX(a,b,c,d,e,f,g){var _=this
 _.a=a
 _.b=b
 _.c=c
 _.d=d
 _.e=e
 _.f=f
-_.r=g
-_.w=h},
-amW:function amW(a,b,c,d,e,f,g,h){var _=this
+_.r=g},
+amW:function amW(a,b,c,d,e,f,g){var _=this
 _.a=a
 _.b=b
 _.c=c
 _.d=d
 _.e=e
 _.f=f
-_.r=g
-_.w=h},
+_.r=g},
 amQ:function amQ(){},
 amR:function amR(a,b){this.a=a
 this.b=b},
@@ -48732,7 +48730,7 @@ G(a){var s=null
 return A.vS(!0,A.R7(A.cV(A.a([new A.MU(s),A.cu(s,16,s),new A.yr(this.d,this.c,this.e,s)],t.p),B.t,B.v,B.q),new A.a2(16,16,16,16)),B.au,!0)}}
 A.yr.prototype={
 ah(){var s=t.z
-return new A.EY([],A.w(s,s),B.j)},
+return new A.EY([],A.w(s,s),A.a(["politics","religion","language"],t.s),B.j)},
 r5(a,b,c,d,e){return this.e.$4$id$pre$preArr(b,c,d,e)}}
 A.EY.prototype={
 aG(){var s,r=this
@@ -48799,29 +48797,27 @@ s.r.pop()},
 aj8(a,b){this.aa(new A.amw(this,a,b))},
 ai6(a){this.aa(new A.amo(this,a))},
 Ge(a){this.aa(new A.amn(this,a))},
-a_f(a,b){var s,r,q,p,o,n,m,l=this,k="Objects",j={},i=J.aF(J.aF(J.aF(l.w,k),b),"title")
-i=i==null?B.aF:new A.c_(i,B.aG,B.a8)
+a_f(a,b){var s,r,q,p,o,n,m=this,l="Objects",k={},j=J.aF(J.aF(J.aF(m.w,l),b),"title")
+j=j==null?B.aF:new A.c_(j,B.aG,B.a8)
 s=$.aA()
-r=J.aF(J.aF(J.aF(l.w,k),b),"matter")
+r=J.aF(J.aF(J.aF(m.w,l),b),"matter")
 r=r==null?B.aF:new A.c_(r,B.aG,B.a8)
-q=J.aF(J.aF(J.aF(l.w,k),b),"img")
+q=J.aF(J.aF(J.aF(m.w,l),b),"img")
 q=q==null?B.aF:new A.c_(q,B.aG,B.a8)
-j.a=J.aF(J.aF(J.aF(l.w,k),b),"type")
-p=j.b=J.aF(J.aF(J.aF(l.w,k),b),"tag")
-o=A.a(["politics","religion","language"],t.s)
-if(p!=null&&!B.b.p(o,p)){j.b="other"
-n=p}else n=""
-m=J.aF(J.aF(J.aF(l.w,k),b),"id")
-m=m==null?B.aF:new A.c_(m,B.aG,B.a8)
-j.c=B.e.k(b+1)
-A.n1(new A.ana(j,l,b,new A.dt(i,s),new A.dt(r,s),new A.dt(q,s),new A.dt(m,s),o,new A.dt(new A.c_(n,B.aG,B.a8),s)),a,t.z)},
-a_d(a){var s,r,q={}
-q.a=""
+k.a=J.aF(J.aF(J.aF(m.w,l),b),"type")
+p=k.b=J.aF(J.aF(J.aF(m.w,l),b),"tag")
+if(p!=null&&!B.b.p(m.y,p)){k.b="other"
+o=p}else o=""
+n=J.aF(J.aF(J.aF(m.w,l),b),"id")
+n=n==null?B.aF:new A.c_(n,B.aG,B.a8)
+k.c=B.e.k(b+1)
+A.n1(new A.ana(k,m,b,new A.dt(j,s),new A.dt(r,s),new A.dt(q,s),new A.dt(n,s),new A.dt(new A.c_(o,B.aG,B.a8),s)),a,t.z)},
+a_d(a){var s,r={}
+r.a=""
 s=$.aA()
-q.b="page"
-q.c=null
-r=A.a(["politics","religion","language"],t.s)
-A.n1(new A.amX(q,this,new A.dt(B.aF,s),new A.dt(B.aF,s),new A.dt(new A.c_("https://raw.githubusercontent.com/akuladatta/gis_bin/master/imgs/",B.aG,B.a8),s),new A.dt(B.aF,s),r,new A.dt(B.aF,s)),a,t.z)},
+r.b="page"
+r.c=null
+A.n1(new A.amX(r,this,new A.dt(B.aF,s),new A.dt(B.aF,s),new A.dt(new A.c_("https://raw.githubusercontent.com/akuladatta/gis_bin/master/imgs/",B.aG,B.a8),s),new A.dt(B.aF,s),new A.dt(B.aF,s)),a,t.z)},
 Cy(a){var s,r,q=J.aF(this.w,"title")
 q=q==null?B.aF:new A.c_(q,B.aG,B.a8)
 s=$.aA()
@@ -48906,7 +48902,7 @@ J.eU(r.w,"icon",s.i(0,"icon"))},
 $S:0}
 A.ana.prototype={
 $1(a){var s=this
-return new A.i2(new A.an9(s.a,s.b,s.c,s.d,s.e,s.f,s.r,s.w,s.x),null)},
+return new A.i2(new A.an9(s.a,s.b,s.c,s.d,s.e,s.f,s.r,s.w),null)},
 $S:37}
 A.an9.prototype={
 $2(a5,a6){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0=this,a1=null,a2=A.ad("Edit Page/Map",a1,a1,a1,a1,a1,a1),a3=t.w,a4=16/(A.au(a5,a1,a3).w.a.a<850?2:1)
@@ -48941,18 +48937,19 @@ h=A.f5(i,A.dD(a1,a1,a1,a1,a1,a1,a1,a1,!0,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,
 g=A.b0(B.o2,a1)
 e=A.cu(a1,a1,15)
 d=k.b
-c=A.a6(a0.w,!0,f)
+c=A.a6(s.y,!0,f)
 c.push("other")
+c.push("none")
 a=A.U(c).h("V<1,je<h>>")
 f=A.a([p,n,m,j,h,A.ce(A.a([g,e,A.LW(5,A.a6(new A.V(c,new A.an5(),a),!0,a.h("ar.E")),new A.an6(k,a6),d,f)],q),B.t,B.v,B.q,a1)],q)
-if(k.b==="other")f.push(A.f5(a0.x,A.dD(a1,a1,a1,a1,a1,a1,a1,a1,!0,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,A.b0(B.o0,a1),a1,a1,a1,a1,a1,"Other Tag",a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1)))
+if(k.b==="other")f.push(A.f5(a0.w,A.dD(a1,a1,a1,a1,a1,a1,a1,a1,!0,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,A.b0(B.o0,a1),a1,a1,a1,a1,a1,"Other Tag",a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1)))
 p=A.MB(A.cV(f,B.t,B.v,B.q))
 n=16/(A.au(a5,a1,a3).w.a.a<850?2:1)
 n=A.dj(a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,new A.a2(24,n,24,n),a1,a1,a1,a1,a1,a1)
 n=A.dl(A.b0(B.cL,a1),A.ad("cancel",a1,a1,a1,a1,a1,a1),new A.an7(a5),n)
 m=16/(A.au(a5,a1,a3).w.a.a<850?2:1)
 m=A.dj(a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,new A.a2(24,m,24,m),a1,a1,a1,a1,a1,a1)
-return A.lj(A.a([n,A.dl(A.b0(B.cM,a1),A.ad("okay",a1,a1,a1,a1,a1,a1),new A.an8(k,s,a2,i,o,l,a0.x,r,a5),m)],q),new A.bV(B.cm,p,a1),!0,a4)},
+return A.lj(A.a([n,A.dl(A.b0(B.cM,a1),A.ad("okay",a1,a1,a1,a1,a1,a1),new A.an8(k,s,a2,i,o,l,a0.w,r,a5),m)],q),new A.bV(B.cm,p,a1),!0,a4)},
 $S:38}
 A.an0.prototype={
 $0(){this.a.akI(0,this.b)
@@ -48986,7 +48983,9 @@ A.an6.prototype={
 $1(a){this.b.$1(new A.amY(this.a,a))},
 $S:52}
 A.amY.prototype={
-$0(){this.a.b=this.b},
+$0(){var s=this.b,r=this.a
+if(s==="none")r.b=null
+else r.b=s},
 $S:0}
 A.an7.prototype={
 $0(){A.cY(this.a,!1).dJ(null)},
@@ -49011,34 +49010,35 @@ A.cY(p.x,!1).dJ(null)},
 $S:0}
 A.amX.prototype={
 $1(a){var s=this
-return new A.i2(new A.amW(s.a,s.b,s.c,s.d,s.e,s.f,s.r,s.w),null)},
+return new A.i2(new A.amW(s.a,s.b,s.c,s.d,s.e,s.f,s.r),null)},
 $S:37}
 A.amW.prototype={
-$2(a3,a4){var s,r,q,p,o,n,m,l,k=this,j=null,i=A.ad("Add Map/Page",j,j,j,j,j,j),h=k.c,g=A.f5(h,A.dD(j,j,j,j,j,j,j,j,!0,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,A.b0(B.ef,j),j,j,j,j,j,"title",j,j,j,j,j,j,j,j,j,j,j,j,j)),f=k.d,e=A.f5(f,A.dD(j,j,j,j,j,j,j,j,!0,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,A.b0(B.fQ,j),j,j,j,j,j,"matter",j,j,j,j,j,j,j,j,j,j,j,j,j)),d=A.b0(B.J0,B.H),c=A.ba(j,j,B.i,j,j,j,j,j,j,j,j,j,20),b=k.a,a=b.b,a0=t.fo,a1=t.N,a2=t.p
-a=A.ce(A.a([d,c,A.LW(5,A.a6(new A.V(A.a(["map","page"],t.s),new A.amQ(),a0),!0,a0.h("ar.E")),new A.amR(b,a4),a,a1)],a2),B.t,B.v,B.q,j)
-a0=k.e
-c=A.f5(a0,A.dD(j,j,j,j,j,j,j,j,!0,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,A.b0(B.nY,j),j,j,j,j,j,"image",j,j,j,j,j,j,j,j,j,j,j,j,j))
-d=k.f
-s=b.b==="map"
+$2(a4,a5){var s,r,q,p,o,n,m,l,k,j=this,i=null,h=A.ad("Add Map/Page",i,i,i,i,i,i),g=j.c,f=A.f5(g,A.dD(i,i,i,i,i,i,i,i,!0,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,A.b0(B.ef,i),i,i,i,i,i,"title",i,i,i,i,i,i,i,i,i,i,i,i,i)),e=j.d,d=A.f5(e,A.dD(i,i,i,i,i,i,i,i,!0,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,A.b0(B.fQ,i),i,i,i,i,i,"matter",i,i,i,i,i,i,i,i,i,i,i,i,i)),c=A.b0(B.J0,B.H),b=A.ba(i,i,B.i,i,i,i,i,i,i,i,i,i,20),a=j.a,a0=a.b,a1=t.fo,a2=t.N,a3=t.p
+a0=A.ce(A.a([c,b,A.LW(5,A.a6(new A.V(A.a(["map","page"],t.s),new A.amQ(),a1),!0,a1.h("ar.E")),new A.amR(a,a5),a0,a2)],a3),B.t,B.v,B.q,i)
+a1=j.e
+b=A.f5(a1,A.dD(i,i,i,i,i,i,i,i,!0,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,A.b0(B.nY,i),i,i,i,i,i,"image",i,i,i,i,i,i,i,i,i,i,i,i,i))
+c=j.f
+s=a.b==="map"
 r=s?"map id":"page id"
-r=A.f5(d,A.dD(j,j,j,j,j,j,j,j,!0,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,s?A.b0(B.jI,j):A.b0(B.o1,j),j,j,j,j,j,r,j,j,j,j,j,j,j,j,j,j,j,j,j))
-q=A.ad(b.a,j,j,j,A.iH(j,j,B.ur,j,j,j,j,j,j,j,j,j,j,j,j,j,j,!0,j,j,j,j,j,j,j,j),j,j)
-p=A.b0(B.o2,j)
-o=A.cu(j,j,15)
-n=b.c
-m=A.a6(k.r,!0,a1)
-m.push("other")
-l=A.U(m).h("V<1,je<h>>")
-a1=A.a([g,e,a,c,r,q,A.ce(A.a([p,o,A.LW(5,A.a6(new A.V(m,new A.amS(),l),!0,l.h("ar.E")),new A.amT(b,a4),n,a1)],a2),B.t,B.v,B.q,j)],a2)
-if(b.c==="other")a1.push(A.f5(k.w,A.dD(j,j,j,j,j,j,j,j,!0,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,A.b0(B.o0,j),j,j,j,j,j,"Other Tag",j,j,j,j,j,j,j,j,j,j,j,j,j)))
-g=A.MB(A.cV(a1,B.t,B.v,B.q))
-e=t.w
-c=16/(A.au(a3,j,e).w.a.a<850?2:1)
-c=A.dj(j,j,j,j,j,j,j,j,j,j,j,j,new A.a2(24,c,24,c),j,j,j,j,j,j)
-c=A.dl(A.b0(B.cL,j),A.ad("cancel",j,j,j,j,j,j),new A.amU(a3),c)
-a=16/(A.au(a3,j,e).w.a.a<850?2:1)
-a=A.dj(j,j,j,j,j,j,j,j,j,j,j,j,new A.a2(24,a,24,a),j,j,j,j,j,j)
-return A.lj(A.a([c,A.dl(A.b0(B.cM,j),A.ad("okay",j,j,j,j,j,j),new A.amV(b,k.b,d,a4,h,f,a0,k.w,a3),a)],a2),new A.bV(B.cm,g,j),!0,i)},
+r=A.f5(c,A.dD(i,i,i,i,i,i,i,i,!0,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,s?A.b0(B.jI,i):A.b0(B.o1,i),i,i,i,i,i,r,i,i,i,i,i,i,i,i,i,i,i,i,i))
+q=A.ad(a.a,i,i,i,A.iH(i,i,B.ur,i,i,i,i,i,i,i,i,i,i,i,i,i,i,!0,i,i,i,i,i,i,i,i),i,i)
+p=A.b0(B.o2,i)
+o=A.cu(i,i,15)
+n=a.c
+m=j.b
+l=A.a6(m.y,!0,a2)
+l.push("other")
+k=A.U(l).h("V<1,je<h>>")
+a2=A.a([f,d,a0,b,r,q,A.ce(A.a([p,o,A.LW(5,A.a6(new A.V(l,new A.amS(),k),!0,k.h("ar.E")),new A.amT(a,a5),n,a2)],a3),B.t,B.v,B.q,i)],a3)
+if(a.c==="other")a2.push(A.f5(j.r,A.dD(i,i,i,i,i,i,i,i,!0,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,A.b0(B.o0,i),i,i,i,i,i,"Other Tag",i,i,i,i,i,i,i,i,i,i,i,i,i)))
+f=A.MB(A.cV(a2,B.t,B.v,B.q))
+d=t.w
+b=16/(A.au(a4,i,d).w.a.a<850?2:1)
+b=A.dj(i,i,i,i,i,i,i,i,i,i,i,i,new A.a2(24,b,24,b),i,i,i,i,i,i)
+b=A.dl(A.b0(B.cL,i),A.ad("cancel",i,i,i,i,i,i),new A.amU(a4),b)
+a0=16/(A.au(a4,i,d).w.a.a<850?2:1)
+a0=A.dj(i,i,i,i,i,i,i,i,i,i,i,i,new A.a2(24,a0,24,a0),i,i,i,i,i,i)
+return A.lj(A.a([b,A.dl(A.b0(B.cM,i),A.ad("okay",i,i,i,i,i,i),new A.amV(a,m,c,a5,g,e,a1,j.r,a4),a0)],a3),new A.bV(B.cm,f,i),!0,h)},
 $S:38}
 A.amQ.prototype={
 $1(a){var s=null
